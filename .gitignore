@@ -1,0 +1,17 @@
+#python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+models/*.joblib
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
